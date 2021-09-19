@@ -14,10 +14,52 @@
 }
 nav ul li a:hover{
     color: hsl(0, 94%, 66%) !important;
+   
 }
+
 .login_button:hover{
     border: 2px solid hsl(0, 94%, 66%);
+    background: none ;
+}
+.login_button{
+   border: 2px hsl(0, 94%, 66%);
+    background-color: hsl(0, 94%, 66%) ;
+    color: white !important;
 }
 .fs-7{
     font-size: 18px;
 }
+.fs-8{
+    font-size: 12px;
+}
+.text-grey{
+    color:  hsl(229, 8%, 60%)  !important;
+    word-spacing: 2px;
+    
+}
+.bg_blue{
+    background: hsl(231, 69%, 60%);
+}
+
+div.relative {
+    position: relative;
+    /* width: 400px; */
+    /* height: 200px; */
+  
+  } 
+  
+  div.absolute {
+
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: -1;
+    width: 65%;
+    height: 70%;
+   
+  }
+
+  /* css by id  */
+  #box1{
+      border-radius:0 0 0 50%;
+  }
