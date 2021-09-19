@@ -1,6 +1,12 @@
-/* font  */
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
 
 *{
     margin: 0;
@@ -34,8 +40,11 @@ nav ul li a:hover{
 }
 .text-grey{
     color:  hsl(229, 8%, 60%)  !important;
-    word-spacing: 2px;
+   
     
+}
+.ws{
+    word-spacing: 2px;
 }
 .bg_blue{
     background: hsl(231, 69%, 60%);
@@ -51,15 +60,31 @@ div.relative {
   div.absolute {
 
     position: absolute;
-    top: 30%;
-    left: 40%;
-    z-index: -1;
-    width: 65%;
-    height: 70%;
+    
    
+  }
+  .simple_btn{
+    border-bottom: 4px solid hsl(0, 94%, 66%);
+
   }
 
   /* css by id  */
   #box1{
       border-radius:0 0 0 50%;
+      top: 30%;
+    left: 40%;
+    z-index: -1;
+    width: 65%;
+    height: 70%;
   }
+  #box2{
+    border-radius: 0 0 40% 0%;
+    top: 30%;
+    /* top: 0%; */
+    right: 45%;
+    z-index: -1;
+    width: 65%;
+    height: 71%;
+   
+}
+  
