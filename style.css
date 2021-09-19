@@ -67,6 +67,9 @@ div.relative {
     border-bottom: 4px solid hsl(0, 94%, 66%);
 
   }
+  .card_box{
+      /* height: 350px; */
+  }
 
   /* css by id  */
   #box1{
