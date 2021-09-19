@@ -63,7 +63,7 @@ nav ul li a:hover{
 
   }
   .btnhero1{
-    border: 2px solid white; 
+    border: 2px solid none; 
   }
   
 /*------------------------------------------------------------------
@@ -140,9 +140,9 @@ div.relative {
     border-radius: 0 0 30% 0%;
     top: 25%;
     /* top: 0%; */
-    right: 18%;
+    right: 25%;
     z-index: -1;
-    width: 90%;
+    width: 86%;
     height: 77%;
    
 }
