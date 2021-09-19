@@ -7,12 +7,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Bookmark landing page</title>
-
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+ <!-- style sheet  -->
+ <link rel="stylesheet" href="style.css">
  
 </head>
 <body>
 
-  Features
+  <!-- Features
   Pricing
   Contact
   Login
@@ -70,42 +73,42 @@
 
   Add to Opera
   Minimum version 46
-  Add & Install Extension
+  Add & Install Extension -->
 
-  Frequently Asked Questions
+  <!-- Frequently Asked Questions -->
   
-  Here are some of our FAQs. If you have any other questions you’d like 
-  answered please feel free to email us.
+  <!-- Here are some of our FAQs. If you have any other questions you’d like 
+  answered please feel free to email us. -->
 
   <!-- Question 1 -->
-  What is Bookmark?
+  <!-- What is Bookmark? -->
 
   <!-- Answer 1 -->
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
-  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis. -->
 
   <!-- Question 2 -->
-  How can I request a new browser?
+  <!-- How can I request a new browser? -->
 
   <!-- Answer 2 -->
-  Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+  <!-- Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
   Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
   ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
-  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. -->
 
   <!-- Question 3 -->
-  Is there a mobile app?
+  <!-- Is there a mobile app? -->
 
   <!-- Answer 3 -->
-  Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+  <!-- Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
   urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
-  sollicitudin ex et ultricies bibendum.
+  sollicitudin ex et ultricies bibendum. -->
 
   <!-- Question 4 -->
-  What about other Chromium browsers?
+  <!-- What about other Chromium browsers? -->
 
   <!-- Answer 4 -->
-  Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+  <!-- Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
   vitae neque eget nisl gravida pellentesque non ut velit.
 
   More Info
@@ -118,8 +121,47 @@
 
   Features
   Pricing
-  Contact
-  
- 
+  Contact -->
+
+  <!-- navbar  -->
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a href="#" class="navbar-brand"> 
+        <img src="images/logo-bookmark.svg" alt="" class="" width="" height="25">
+       <span class="hidden"> a</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+     
+     
+      <div class="collapse navbar-collapse fs-7 " id="toggleMobileMenu">
+
+        <ul class="navbar-nav text-center ms-auto">
+          <li class="me-1">
+            <a class="nav-link" href="">Features</a>
+          </li>
+       <li  class="me-1">
+            <a class="nav-link" href="">Pricing</a>
+          </li>
+        <li  class="">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        <li class="login_button px-3">
+            <a class="nav-link " href=""> Login</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+   
 </body>
 </html>

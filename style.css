@@ -1,0 +1,23 @@
+/* font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.hidden{
+    display: none;
+}
+nav ul li a:hover{
+    color: hsl(0, 94%, 66%) !important;
+}
+.login_button:hover{
+    border: 2px solid hsl(0, 94%, 66%);
+}
+.fs-7{
+    font-size: 18px;
+}
