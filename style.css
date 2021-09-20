@@ -130,10 +130,9 @@ div.relative {
   #box1{
     border-radius: 0 0 0 28%;
     top: 18%;
-    left: 25%;
+    left: 20%;
     z-index: -1;
-    width: 80%;
-  
+    width: 78%;
     height: 82%;
   }
   #box2{
