@@ -65,6 +65,9 @@ nav ul li a:hover{
   .btnhero1{
     border: 2px solid hsl(231, 69%, 60%); 
   }
+  #btnhero2{
+      border: 2px solid white;
+  }
   
 /*------------------------------------------------------------------
     Fonts 
@@ -128,12 +131,12 @@ div.relative {
   id
 -------------------------------------------------------------------*/
   #box1{
-    border-radius: 0 0 0 28%;
+    border-radius: 0 0 0 31%;
     top: 30%;
     left: 26%;
     z-index: -1;
-    width: 75%;
-    height: 65%;
+    width: 74%;
+    height: 70%;
   }
   #box2{
     border-radius: 0 0 30% 0%;
@@ -145,4 +148,13 @@ div.relative {
     height: 77%;
    
 }
-  
+  @media screen and (max-width: 600px) {
+      body{
+          /* display: none; */
+      }
+      #half_boder{
+          width: 50%;
+          margin: auto;
+      }
+      
+  }
