@@ -34,8 +34,8 @@ nav ul li a:hover{
     color: hsl(0, 94%, 66%);
 }
 #btnhero2:hover{
-    color:  hsl(229, 8%, 60%) !important;
-    border: 2px solid hsl(229, 8%, 60%);
+    color: hsl(229, 31%, 21%)!important;
+    border: 2px solid hsl(229, 31%, 21%) !important;
 }
 .btnhero1:hover{
     color:  hsl(231, 69%, 60%)!important;
@@ -57,6 +57,7 @@ nav ul li a:hover{
    border: 2px solid hsl(0, 94%, 66%);
     background-color: hsl(0, 94%, 66%) ;
     color: white !important;
+    padding: 3px 1rem ;
 }
 .simple_btn{
     border-bottom: 4px solid hsl(0, 94%, 66%) !important;
@@ -66,7 +67,7 @@ nav ul li a:hover{
     border: 2px solid hsl(231, 69%, 60%); 
   }
   #btnhero2{
-      border: 2px solid white;
+      border: 2px solid #f8f9fa;
   }
   
 /*------------------------------------------------------------------
@@ -77,13 +78,14 @@ nav ul li a:hover{
 }
 .fs-8{
     font-size: 14px;
-    line-height: 25px;
+  
 }
 .text-grey{
     color:  hsl(229, 8%, 60%)  !important;
    
     
 }
+
 /*------------------------------------------------------------------
     word and letter spacing
 -------------------------------------------------------------------*/
@@ -123,6 +125,12 @@ div.relative {
    
   }
  
+  /*_______________________________________________________________
+             Nav bar
+  ______________________________________________________________*/
+  nav a{
+      color: hsl(229, 31%, 21%) !important;
+  }
   
 
   
