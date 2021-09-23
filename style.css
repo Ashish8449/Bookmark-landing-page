@@ -132,8 +132,27 @@ div.relative {
       color: hsl(229, 31%, 21%) !important;
   }
   
-
+  .accordion-header button:focus{
+    outline:0 !important;
+    border:none !important;
+    box-shadow: none !important;
+    background-color: #fff !important;
+    
+}
+.accordion-header button p:hover{
+    color:hsl(0, 94%, 66%) !important;
+}
+.nav-tabs .nav-link.active {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-bottom: 4px solid hsl(0, 94%, 66%);
+    border-radius: 6px;
+}
   
+.nav-link {
+    color: hsl(229, 8%, 60%);
+}
 
 /*------------------------------------------------------------------
   id
