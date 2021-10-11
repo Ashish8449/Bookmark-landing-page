@@ -2,186 +2,190 @@
     IMPORT FILES
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
 
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 /*------------------------------------------------------------------
     hover effects
 -------------------------------------------------------------------*/
-nav ul li a:hover{
-    color: hsl(0, 94%, 66%) !important;
-   
+nav ul li a:hover {
+  color: hsl(0, 94%, 66%) !important;
 }
 
-.login_button:hover{
-   
-    background: none ;
+.login_button:hover {
+  background: none;
 }
-#sec2 a:hover{
-    color: hsl(0, 94%, 66%);
+#sec2 a:hover {
+  color: hsl(0, 94%, 66%);
 }
-#btnhero2:hover{
-    color: hsl(229, 31%, 21%)!important;
-    border: 2px solid hsl(229, 31%, 21%) !important;
+#btnhero2:hover {
+  color: hsl(229, 31%, 21%) !important;
+  border: 2px solid hsl(229, 31%, 21%) !important;
 }
-.btnhero1:hover{
-    color:  hsl(231, 69%, 60%)!important;
-    border: 2px solid hsl(231, 69%, 60%);
-    background: none;
-    box-shadow: none;
+.btnhero1:hover {
+  color: hsl(231, 69%, 60%) !important;
+  border: 2px solid hsl(231, 69%, 60%);
+  background: none;
+  box-shadow: none;
 }
-.redbtn:hover{
-    background: white;
-    color: hsl(0, 94%, 66%) !important;
-    border-color: hsl(0, 94%, 66%);
-    border: 2px solid hsl(0, 94%, 66%);
+.redbtn:hover {
+  background: white;
+  color: hsl(0, 94%, 66%) !important;
+  border-color: hsl(0, 94%, 66%);
+  border: 2px solid hsl(0, 94%, 66%);
 }
 
+.redbtn {
+  border: 2px solid hsl(0, 94%, 66%);
+}
 /*------------------------------------------------------------------
     buttons
 -------------------------------------------------------------------*/
-.login_button{
-   border: 2px solid hsl(0, 94%, 66%);
-    background-color: hsl(0, 94%, 66%) ;
-    color: white !important;
-    padding: 3px 1rem ;
+.login_button {
+  border: 2px solid hsl(0, 94%, 66%);
+  background-color: hsl(0, 94%, 66%);
+  color: white !important;
+  padding: 3px 1rem;
 }
-.simple_btn{
-    border-bottom: 4px solid hsl(0, 94%, 66%) !important;
+.simple_btn {
+  border-bottom: 4px solid hsl(0, 94%, 66%) !important;
+}
+.btnhero1 {
+  border: 2px solid hsl(231, 69%, 60%);
+}
+#btnhero2 {
+  border: 2px solid #f8f9fa;
+}
 
-  }
-  .btnhero1{
-    border: 2px solid hsl(231, 69%, 60%); 
-  }
-  #btnhero2{
-      border: 2px solid #f8f9fa;
-  }
-  
 /*------------------------------------------------------------------
     Fonts 
 -------------------------------------------------------------------*/
-.fs-7{
-    font-size: 18px;
+.fs-7 {
+  font-size: 18px;
 }
-.fs-8{
-    font-size: 14px;
-  
+.fs-8 {
+  font-size: 14px;
 }
-.text-grey{
-    color:  hsl(229, 8%, 60%)  !important;
-   
-    
+.text-grey {
+  color: hsl(229, 8%, 60%) !important;
 }
 
 /*------------------------------------------------------------------
     word and letter spacing
 -------------------------------------------------------------------*/
-.ws{
-    word-spacing: 2px;
+.ws {
+  word-spacing: 2px;
 }
-.ls{
-    letter-spacing: 5px;
+.ls {
+  letter-spacing: 5px;
 }
 /*------------------------------------------------------------------
     backgrouds
 -------------------------------------------------------------------*/
-.bg_blue{
-    background: hsl(231, 69%, 60%);
+.bg_blue {
+  background: hsl(231, 69%, 60%);
 }
-.bg_red{
-    background: hsl(0, 94%, 66%);
+.bg_red {
+  background: hsl(0, 94%, 66%);
 }
 
-.bg_footer{
-    background: hsl(229, 31%, 21%);
+.bg_footer {
+  background: hsl(229, 31%, 21%);
 }
 /*------------------------------------------------------------------
     position
 -------------------------------------------------------------------*/
 div.relative {
-    position: relative;
-    /* width: 400px; */
-    /* height: 200px; */
-  
-  } 
-  
-  div.absolute {
+  position: relative;
+  /* width: 400px; */
+  /* height: 200px; */
+}
 
-    position: absolute;
-    
-   
-  }
- 
-  /*_______________________________________________________________
+div.absolute {
+  position: absolute;
+}
+svg {
+  color: white;
+}
+/*_______________________________________________________________
              Nav bar
   ______________________________________________________________*/
-  nav a{
-      color: hsl(229, 31%, 21%) !important;
-  }
-  
-  .accordion-header button:focus{
-    outline:0 !important;
-    border:none !important;
-    box-shadow: none !important;
-    background-color: #fff !important;
-    
-}
-.accordion-header button p:hover{
-    color:hsl(0, 94%, 66%) !important;
-}
-.nav-tabs .nav-link.active {
-    color: hsl(0, 94%, 66%);
-    background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff;
-    border-bottom: 4px solid hsl(0, 94%, 66%);
-    border-radius: 6px;
-}
-  
-.nav-link {
-    color: hsl(229, 8%, 60%);
+nav a {
+  color: hsl(229, 31%, 21%) !important;
 }
 
+.accordion-header button:focus {
+  outline: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+.accordion-header button p:hover {
+  color: hsl(0, 94%, 66%) !important;
+}
+.nav-tabs .nav-link.active {
+  color: hsl(0, 94%, 66%);
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+  border-bottom: 4px solid hsl(0, 94%, 66%);
+  border-radius: 6px;
+}
+
+.nav-link {
+  color: hsl(229, 8%, 60%);
+}
+.accordion-button:not(.collapsed) {
+  color: hsl(0, 94%, 66%) !important;
+}
+input::placeholder {
+  text-align: center;
+}
+input {
+  border: 2px solid none;
+}
+.footerimg {
+  /* filter: brightness(0) invert(1); */
+  /* filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5); */
+  fill: white;
+}
 /*------------------------------------------------------------------
   id
 -------------------------------------------------------------------*/
-  #box1{
-    border-radius: 0 0 0 31%;
-    top: 30%;
-    left: 26%;
-    z-index: -1;
-    width: 74%;
-    height: 70%;
-  }
-  #box2{
-    border-radius: 0 0 30% 0%;
-    top: 25%;
-    /* top: 0%; */
-    right: 25%;
-    z-index: -1;
-    width: 86%;
-    height: 77%;
-   
+#box1 {
+  border-radius: 0 0 0 31%;
+  top: 30%;
+  left: 26%;
+  z-index: -1;
+  width: 74%;
+  height: 70%;
 }
-  @media screen and (max-width: 600px) {
-      body{
-          /* display: none; */
-      }
-      #half_boder{
-          width: 50%;
-          margin: auto;
-      }
-      
+#box2 {
+  border-radius: 0 0 30% 0%;
+  top: 25%;
+  /* top: 0%; */
+  right: 25%;
+  z-index: -1;
+  width: 86%;
+  height: 77%;
+}
+@media screen and (max-width: 600px) {
+  body {
+    /* display: none; */
   }
+  #half_boder {
+    width: 50%;
+    margin: auto;
+  }
+}
