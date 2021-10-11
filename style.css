@@ -160,6 +160,14 @@ input {
   /* filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5); */
   fill: white;
 }
+ul li a:hover {
+  color: hsl(0, 94%, 66%) !important;
+  /* display: none; */
+}
+.fimg:hover {
+  fill: hsl(0, 94%, 66%);
+  display: none;
+}
 /*------------------------------------------------------------------
   id
 -------------------------------------------------------------------*/
@@ -179,6 +187,13 @@ input {
   z-index: -1;
   width: 86%;
   height: 77%;
+}
+.nav-tabs .nav-link.active {
+  color: hsl(0, 94%, 66%);
+  background-color: none !important;
+  border-color: hsl(0, 94%, 66%) !important;
+  border-bottom: 4px solid hsl(0, 94%, 66%);
+  border-radius: 6px;
 }
 @media screen and (max-width: 600px) {
   body {
